@@ -5,7 +5,7 @@ def main():
     # Set page layout to wide (full screen)
     st.set_page_config(layout="wide")
 
-    file_path = r"C:\Users\lenovo\Downloads\FEES\B.Tech\3rd Year\Section - E.xlsx"
+    file_path = r"Section - E.xlsx"
     df = load_data(file_path)
     if df is not None:
         # Filter dataframe to include only Section E
